@@ -9,6 +9,7 @@ gem 'rails', '3.2.11'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.9.0'
+  gem 'guard-rspec', '0.5.5'
 end
 
 # Gems used only for assets and not required
@@ -28,6 +29,8 @@ gem 'jquery-rails', '2.2.0'
 group :test do
   gem 'capybara', '1.1.2'
   gem 'syntax'
+  gem 'terminal-notifier'
+  gem 'terminal-notifier-guard'
 end
 
 group :production do
